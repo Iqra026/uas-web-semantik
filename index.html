@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Semantik | Iqra Fauzan Akbar</title>
+    
+    <!-- Meta SEO -->
+    <meta name="description" content="Website portofolio pribadi Iqra Fauzan Akbar yang ramah mesin (semantically aware) dengan integrasi data terstruktur JSON-LD untuk tugas Web Semantik.">
+    <meta name="keywords" content="Iqra Fauzan Akbar, Web Semantik, Portofolio Semantik, JSON-LD, Schema.org, Person, CollegeOrUniversity, Web Developer">
+    <meta name="author" content="Iqra Fauzan Akbar">
+    
+    <!-- FontAwesome Icons & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://Iqra026.github.io/uas-web-semantik/#person",
+          "name": "Iqra Fauzan Akbar",
+          "givenName": "Iqra",
+          "familyName": "Fauzan Akbar",
+          "jobTitle": "Mahasiswa Ilmu Komputer & Web Developer",
+          "description": "Mahasiswa Ilmu Komputer yang berfokus pada pengembangan aplikasi web responsif dan teknologi Web Semantik.",
+          "image": "https://Iqra026.github.io/uas-web-semantik/assets/profile.png",
+          "email": "mailto:iqrafauzan@gmail.com",
+          "telephone": "+62-812-3456-7890",
+          "url": "https://Iqra026.github.io/uas-web-semantik/",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kendari",
+            "addressRegion": "Sultra",
+            "addressCountry": "Indonesia"
+          },
+          "sameAs": [
+            "https://github.com/Iqra026",
+            "https://linkedin.com/in/iqrafauzan"
+          ],
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://Iqra026.github.io/uas-web-semantik/#college",
+            "name": "Universitas Halu Oleo",
+            "url": "https://uho.ac.id",
+            "location": {
+              "@type": "Place",
+              "name": "Kendari, Indonesia"
+            }
+          },
+          "knowsAbout": [
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://Iqra026.github.io/uas-web-semantik/#skill-html",
+              "name": "HTML5 & CSS3",
+              "description": "Bahasa markup dan penataan desain halaman web yang responsif."
+            },
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://Iqra026.github.io/uas-web-semantik/#skill-javascript",
+              "name": "JavaScript",
+              "description": "Bahasa pemrograman tingkat tinggi untuk interaktivitas dinamis pada web."
+            },
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://Iqra026.github.io/uas-web-semantik/#skill-semantic-web",
+              "name": "Web Semantik",
+              "description": "Pengembangan web ramah mesin menggunakan RDF, RDFs, OWL, dan JSON-LD."
+            },
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://Iqra026.github.io/uas-web-semantik/#skill-uiux",
+              "name": "Desain UI/UX",
+              "description": "Perancangan pengalaman pengguna yang estetis dan intuitif menggunakan Figma."
+            }
+          ],
+          "memberOf": [
+            {
+              "@type": "Organization",
+              "@id": "https://Iqra026.github.io/uas-web-semantik/#org-himpunan",
+              "name": "Himpunan Mahasiswa Ilmu Komputer (HMILKOM) UHO",
+              "url": "https://hmilkom.uho.ac.id",
+              "description": "Organisasi kemahasiswaan tingkat program studi Ilmu Komputer di Universitas Halu Oleo."
+            }
+          ]
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "@id": "https://Iqra026.github.io/uas-web-semantik/#college",
+          "name": "Universitas Halu Oleo",
+          "url": "https://uho.ac.id",
+          "logo": "https://uho.ac.id/wp-content/uploads/logo-uho.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kendari",
+            "addressRegion": "Sultra",
+            "addressCountry": "Indonesia"
+          }
+        },
+        {
+          "@type": "Project",
+          "@id": "https://Iqra026.github.io/uas-web-semantik/#project-uas",
+          "name": "Semantic-Aware Personal Portfolio",
+          "description": "Proyek akhir UAS mata kuliah Web Semantik: Website portofolio pribadi yang ramah mesin, mengintegrasikan data terstruktur JSON-LD serta desain visual modern yang responsif.",
+          "founder": {
+            "@id": "https://Iqra026.github.io/uas-web-semantik/#person"
+          },
+          "keywords": [
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+          ],
+          "url": "https://github.com/Iqra026/uas-semantik"
+        },
+        {
+          "@type": "Project",
+          "@id": "https://Iqra026.github.io/uas-web-semantik/#project-rdf-search",
+          "name": "RDF Data Search Engine",
+          "description": "Mesin pencari sederhana yang memproses dokumen RDF/Turtle dan memetakan datanya menjadi bentuk grafis interaktif.",
+          "founder": {
+            "@id": "https://Iqra026.github.io/uas-web-semantik/#person"
+          },
+          "keywords": [
+            "Python",
+            "RDFLib",
+            "React"
+          ],
+          "url": "https://github.com/Iqra026/rdf-search-engine"
+        },
+        {
+          "@type": "Event",
+          "@id": "https://Iqra026.github.io/uas-web-semantik/#event-webinar",
+          "name": "Webinar Nasional: Masa Depan Web Semantik di Era AI",
+          "startDate": "2026-04-15T09:00:00+07:00",
+          "endDate": "2026-04-15T12:00:00+07:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "https://zoom.us/j/seminar-semantik-uho"
+          },
+          "organizer": {
+            "@id": "https://Iqra026.github.io/uas-web-semantik/#org-himpunan"
+          },
+          "performer": {
+            "@id": "https://Iqra026.github.io/uas-web-semantik/#person"
+          },
+          "description": "Berperan sebagai Ketua Pelaksana Webinar Nasional yang membahas peran integrasi data terstruktur dengan pemodelan AI."
+        },
+        {
+          "@type": "Event",
+          "@id": "https://Iqra026.github.io/uas-web-semantik/#event-bakti-sosial",
+          "name": "Bakti Sosial HMILKOM Peduli",
+          "startDate": "2025-11-22T08:00:00+07:00",
+          "endDate": "2025-11-23T16:00:00+07:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "name": "Panti Asuhan Indah Kasih, Kendari"
+          },
+          "organizer": {
+            "@id": "https://Iqra026.github.io/uas-web-semantik/#org-himpunan"
+          },
+          "performer": {
+            "@id": "https://Iqra026.github.io/uas-web-semantik/#person"
+          },
+          "description": "Menjadi panitia divisi logistik dalam penyaluran bantuan sosial kemanusiaan untuk anak panti asuhan."
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- NAVBAR & HEADER -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">
+                Iqra.<span>SEMANTICS</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#about" class="active">Tentang</a></li>
+                    <li><a href="#education">Pendidikan</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#organization">Organisasi</a></li>
+                    <li><a href="#projects">Portofolio</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Ganti Tema">
+                    <i class="fa-solid fa-moon"></i>
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                <button id="hamburger" class="hamburger" aria-label="Buka Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="hero-tag">Web Semantik & Web Dev</span>
+                    <h1 class="hero-title">Halo, Saya <br><span>Iqra Fauzan Akbar</span></h1>
+                    <p class="hero-desc">Saya adalah mahasiswa Ilmu Komputer yang mendalami pengembangan aplikasi web modern, desain antarmuka, serta integrasi teknologi data terstruktur (Web Semantik) untuk menciptakan web yang ramah mesin dan berkinerja tinggi.</p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary">Lihat Proyek <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/Iqra026" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com/in/iqrafauzan" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:iqrafauzan@gmail.com" class="social-link" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-glow"></div>
+                    <div class="hero-image-border">
+                        <div class="hero-image">
+                            <img src="assets/profile.png" alt="Foto Profil Iqra Fauzan Akbar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT / IDENTITAS DIRI SECTION -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Biodata</span>
+                    <h2 class="section-title">Identitas Diri</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3><i class="fa-solid fa-address-card"></i> Informasi Profil</h3>
+                        <div class="profile-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Nama Lengkap</span>
+                                <span class="detail-value">Iqra Fauzan Akbar</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Pekerjaan</span>
+                                <span class="detail-value">Mahasiswa & Web Developer</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Lokasi</span>
+                                <span class="detail-value">Kendari, Indonesia</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Email</span>
+                                <span class="detail-value"><a href="mailto:iqrafauzan@gmail.com">iqrafauzan@gmail.com</a></span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Nomor Telepon</span>
+                                <span class="detail-value">+62 812-3456-7890</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Situs Web</span>
+                                <span class="detail-value"><a href="https://Iqra026.github.io/uas-web-semantik/" target="_blank" rel="noopener noreferrer">Iqra026.github.io/uas-web-semantik</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>Saya adalah seorang pengembang web antusias yang bersemangat untuk mengeksplorasi bagaimana data dapat dimengerti tidak hanya oleh manusia, melainkan juga secara cerdas oleh mesin pencari maupun sistem kecerdasan buatan.</p>
+                        <p>Fokus studi saya saat ini adalah menjembatani kesenjangan antara antarmuka web yang interaktif (sisi frontend) dengan pemodelan data semantik (seperti RDF, OWL, dan JSON-LD). Saya percaya bahwa masa depan web adalah web yang terhubung dan memiliki makna (semantik).</p>
+                        <div class="about-stats">
+                            <div class="stat-box">
+                                <span class="stat-number">4+</span>
+                                <span class="stat-label">Skema Valid</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Proyek Selesai</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">2+</span>
+                                <span class="stat-label">Organisasi</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION / RIWAYAT PENDIDIKAN SECTION -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Riwayat Akademik</span>
+                    <h2 class="section-title">Pendidikan</h2>
+                </div>
+                <div class="timeline">
+                    <!-- Kuliah -->
+                    <div class="timeline-item">
+                        <div class="timeline-badge">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-time">2023 - Sekarang</span>
+                            <h3 class="timeline-title">S1 Ilmu Komputer</h3>
+                            <h4 class="timeline-subtitle">Universitas Halu Oleo</h4>
+                            <p class="timeline-text">Berfokus pada rekayasa perangkat lunak, pemrograman web, struktur data, basis data, dan secara khusus mempelajari mata kuliah Web Semantik untuk integrasi ontologi data di internet.</p>
+                            <div class="timeline-meta">
+                                <span><i class="fa-solid fa-map-pin"></i> Kendari, Indonesia</span>
+                                <span><i class="fa-solid fa-star"></i> IPK: 3.85 / 4.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SMA -->
+                    <div class="timeline-item">
+                        <div class="timeline-badge">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-time">2020 - 2023</span>
+                            <h3 class="timeline-title">MIPA (Matematika dan Ilmu Pengetahuan Alam)</h3>
+                            <h4 class="timeline-subtitle">SMA Negeri 1 Kendari</h4>
+                            <p class="timeline-text">Aktif dalam kegiatan olimpiade komputer tingkat kota serta bergabung dalam klub robotik sekolah, mempelajari dasar-dasar algoritma dan logika pemrograman.</p>
+                            <div class="timeline-meta">
+                                <span><i class="fa-solid fa-map-pin"></i> Kendari, Indonesia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS / DAFTAR SKILL SECTION -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Keahlian</span>
+                    <h2 class="section-title">Daftar Skill</h2>
+                </div>
+                <div class="skills-grid">
+                    <!-- Frontend -->
+                    <div class="skill-category">
+                        <h3 class="skill-cat-title"><i class="fa-solid fa-code"></i> Frontend Development</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5 & CSS3</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-percentage="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript (ES6+)</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-percentage="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">React.js</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-percentage="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Semantic Web -->
+                    <div class="skill-category">
+                        <h3 class="skill-cat-title"><i class="fa-solid fa-circle-nodes"></i> Semantic Web</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JSON-LD / Metadata</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-percentage="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">RDF & SPARQL</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-percentage="70"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">OWL / Ontologi</span>
+                                    <span class="skill-percentage">65%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-percentage="65"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tools / Others -->
+                    <div class="skill-category">
+                        <h3 class="skill-cat-title"><i class="fa-solid fa-screwdriver-wrench"></i> Desain & Alat</h3>
+                        <p class="skill-desc" style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 15px;">Daftar teknologi penunjang yang sering saya gunakan untuk kolaborasi dan desain:</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Figma</span>
+                            <span class="skill-tag">Git & GitHub</span>
+                            <span class="skill-tag">Python (RDFLib)</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Postman</span>
+                            <span class="skill-tag">SEO Audit</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ORGANIZATION / KETERLIBATAN ORGANISASI SECTION -->
+        <section id="organization" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Pengalaman</span>
+                    <h2 class="section-title">Keterlibatan Organisasi</h2>
+                </div>
+                <div class="org-grid">
+                    <!-- Organisasi 1 -->
+                    <div class="org-card">
+                        <div class="org-header">
+                            <div class="org-title-group">
+                                <h3 class="org-role">Staff Divisi Minat & Bakat</h3>
+                                <span class="org-name">Himpunan Mahasiswa Ilmu Komputer (HMILKOM) UHO</span>
+                            </div>
+                            <span class="org-date">2024 - Sekarang</span>
+                        </div>
+                        <p class="org-desc">Bertanggung jawab dalam merancang dan memfasilitasi program pengembangan bakat mahasiswa di bidang teknologi informasi dan akademik, termasuk menyelenggarakan kompetisi internal coding.</p>
+                        <ul class="org-key-actions">
+                            <li><i class="fa-solid fa-circle-check"></i> Mengoordinasikan event internal "Informatics Championship".</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Menjadi penghubung komunikasi antara mahasiswa dengan juri akademisi.</li>
+                        </ul>
+                    </div>
+                    <!-- Organisasi 2 (Event / Kepanitiaan) -->
+                    <div class="org-card">
+                        <div class="org-header">
+                            <div class="org-title-group">
+                                <h3 class="org-role">Ketua Pelaksana Webinar Nasional</h3>
+                                <span class="org-name">Event Webinar Web Semantik 2026 (HMILKOM UHO)</span>
+                            </div>
+                            <span class="org-date">Feb - Apr 2026</span>
+                        </div>
+                        <p class="org-desc">Memimpin panitia pelaksana dalam menyelenggarakan Webinar Nasional yang bertajuk "Masa Depan Web Semantik di Era AI". Sukses mendatangkan pembicara industri dan dihadiri lebih dari 200 peserta secara virtual.</p>
+                        <ul class="org-key-actions">
+                            <li><i class="fa-solid fa-circle-check"></i> Mengatur timeline perencanaan, pengisi acara, dan publikasi digital.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Mengelola anggaran kepanitiaan secara transparan dan efisien.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS / PORTFOLIO SECTION -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Portofolio</span>
+                    <h2 class="section-title">Proyek Pilihan</h2>
+                </div>
+                <div class="projects-grid">
+                    <!-- Proyek 1 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag semantic">Web Semantik</span>
+                                <span class="project-tag">JSON-LD</span>
+                            </div>
+                            <h3 class="project-title">Semantic-Aware Personal Portfolio</h3>
+                            <p class="project-desc">Situs portofolio pribadi yang dirancang secara detail untuk UAS Web Semantik. Menyematkan data terstruktur menggunakan format JSON-LD untuk memetakan data Person, CollegeOrUniversity, Project, Event, dan DefinedTerm agar dapat diindeks mesin pencari secara optimal.</p>
+                            <div class="project-footer">
+                                <span class="project-tech">HTML5, CSS3, JS, Schema.org</span>
+                                <div class="project-links">
+                                    <a href="https://github.com/Iqra026/uas-semantik" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://Iqra026.github.io/uas-web-semantik/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Proyek 2 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag semantic">SPARQL</span>
+                                <span class="project-tag">RDFLib</span>
+                                <span class="project-tag">React</span>
+                            </div>
+                            <h3 class="project-title">RDF Data Search Engine</h3>
+                            <p class="project-desc">Aplikasi mesin pencari sederhana untuk membaca file RDF/Turtle. Memungkinkan pengguna melakukan query data grafis secara visual dengan memetakan triples (Subject-Predicate-Object) menjadi bagan visual yang mudah dipahami.</p>
+                            <div class="project-footer">
+                                <span class="project-tech">React.js, Python, Flask, RDFLib</span>
+                                <div class="project-links">
+                                    <a href="https://github.com/Iqra026/rdf-search-engine" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="footer-cta">
+            <div class="container cta-container">
+                <span class="section-subtitle" style="color: var(--accent-purple);">Hubungi</span>
+                <h2 class="cta-title">Mari Berdiskusi</h2>
+                <p class="cta-desc">Apakah Anda tertarik pada implementasi Web Semantik, pengembangan aplikasi web, atau sekadar ingin berjejaring? Silakan kirimkan email atau hubungi saya melalui media sosial.</p>
+                <a href="mailto:iqrafauzan@gmail.com" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Kirim Email</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#education">Pendidikan</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#organization">Organisasi</a></li>
+                <li><a href="#projects">Portofolio</a></li>
+            </ul>
+            <p>&copy; 2026 Iqra Fauzan Akbar. All Rights Reserved.</p>
+            <p style="font-size: 0.8rem; margin-top: 5px; color: var(--text-muted);">Dibuat khusus untuk Tugas Akhir Mata Kuliah Web Semantik.</p>
+            
+            <div class="semantic-badges">
+                <span class="sem-badge"><i class="fa-solid fa-check-double" style="color: #10B981;"></i> Semantically Rich</span>
+                <a href="https://validator.schema.org/" target="_blank" rel="noopener noreferrer" class="sem-badge schema-valid">
+                    <i class="fa-solid fa-circle-check"></i> Schema.org Valid
+                </a>
+                <a href="https://search.google.com/test/rich-results" target="_blank" rel="noopener noreferrer" class="sem-badge schema-valid">
+                    <i class="fa-solid fa-circle-check"></i> Google Rich Results Ready
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
