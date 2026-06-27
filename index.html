@@ -76,6 +76,15 @@
               "name": "Desain UI/UX",
               "description": "Perancangan pengalaman pengguna yang estetis dan intuitif menggunakan Figma."
             }
+          ],
+          "memberOf": [
+            {
+              "@type": "Organization",
+              "@id": "https://Iqra026.github.io/uas-web-semantik/#org-himpunan",
+              "name": "Himpunan Mahasiswa Ilmu Komputer (HMILKOM) UHO",
+              "url": "https://hmilkom.uho.ac.id",
+              "description": "Organisasi kemahasiswaan tingkat program studi Ilmu Komputer di Universitas Halu Oleo."
+            }
           ]
         },
         {
@@ -120,6 +129,46 @@
             "React"
           ],
           "url": "https://github.com/Iqra026/rdf-search-engine"
+        },
+        {
+          "@type": "Event",
+          "@id": "https://Iqra026.github.io/uas-web-semantik/#event-webinar",
+          "name": "Webinar Nasional: Masa Depan Web Semantik di Era AI",
+          "startDate": "2026-04-15T09:00:00+07:00",
+          "endDate": "2026-04-15T12:00:00+07:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "https://zoom.us/j/seminar-semantik-uho"
+          },
+          "organizer": {
+            "@id": "https://Iqra026.github.io/uas-web-semantik/#org-himpunan"
+          },
+          "performer": {
+            "@id": "https://Iqra026.github.io/uas-web-semantik/#person"
+          },
+          "description": "Berperan sebagai Ketua Pelaksana Webinar Nasional yang membahas peran integrasi data terstruktur dengan pemodelan AI."
+        },
+        {
+          "@type": "Event",
+          "@id": "https://Iqra026.github.io/uas-web-semantik/#event-bakti-sosial",
+          "name": "Bakti Sosial HMILKOM Peduli",
+          "startDate": "2025-11-22T08:00:00+07:00",
+          "endDate": "2025-11-23T16:00:00+07:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "name": "Panti Asuhan Indah Kasih, Kendari"
+          },
+          "organizer": {
+            "@id": "https://Iqra026.github.io/uas-web-semantik/#org-himpunan"
+          },
+          "performer": {
+            "@id": "https://Iqra026.github.io/uas-web-semantik/#person"
+          },
+          "description": "Menjadi panitia divisi logistik dalam penyaluran bantuan sosial kemanusiaan untuk anak panti asuhan."
         }
       ]
     }
@@ -139,6 +188,7 @@
                     <li><a href="#about" class="active">Tentang</a></li>
                     <li><a href="#education">Pendidikan</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#organization">Organisasi</a></li>
                     <li><a href="#projects">Portofolio</a></li>
                     <li><a href="#contact">Kontak</a></li>
                 </ul>
@@ -376,9 +426,47 @@
                     </div>
                 </div>
             </div>
+        <!-- ORGANIZATION / KETERLIBATAN ORGANISASI SECTION -->
+        <section id="organization" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Pengalaman</span>
+                    <h2 class="section-title">Keterlibatan Organisasi</h2>
+                </div>
+                <div class="org-grid">
+                    <!-- Organisasi 1 -->
+                    <div class="org-card">
+                        <div class="org-header">
+                            <div class="org-title-group">
+                                <h3 class="org-role">Staff Divisi Minat & Bakat</h3>
+                                <span class="org-name">Himpunan Mahasiswa Ilmu Komputer (HMILKOM) UHO</span>
+                            </div>
+                            <span class="org-date">2024 - Sekarang</span>
+                        </div>
+                        <p class="org-desc">Bertanggung jawab dalam merancang dan memfasilitasi program pengembangan bakat mahasiswa di bidang teknologi informasi dan akademik, termasuk menyelenggarakan kompetisi internal coding.</p>
+                        <ul class="org-key-actions">
+                            <li><i class="fa-solid fa-circle-check"></i> Mengoordinasikan event internal "Informatics Championship".</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Menjadi penghubung komunikasi antara mahasiswa dengan juri akademisi.</li>
+                        </ul>
+                    </div>
+                    <!-- Organisasi 2 (Event / Kepanitiaan) -->
+                    <div class="org-card">
+                        <div class="org-header">
+                            <div class="org-title-group">
+                                <h3 class="org-role">Ketua Pelaksana Webinar Nasional</h3>
+                                <span class="org-name">Event Webinar Web Semantik 2026 (HMILKOM UHO)</span>
+                            </div>
+                            <span class="org-date">Feb - Apr 2026</span>
+                        </div>
+                        <p class="org-desc">Memimpin panitia pelaksana dalam menyelenggarakan Webinar Nasional yang bertajuk "Masa Depan Web Semantik di Era AI". Sukses mendatangkan pembicara industri dan dihadiri lebih dari 200 peserta secara virtual.</p>
+                        <ul class="org-key-actions">
+                            <li><i class="fa-solid fa-circle-check"></i> Mengatur timeline perencanaan, pengisi acara, dan publikasi digital.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Mengelola anggaran kepanitiaan secara transparan dan efisien.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
-
-
 
         <!-- PROJECTS / PORTFOLIO SECTION -->
         <section id="projects" class="section">
@@ -446,6 +534,7 @@
                 <li><a href="#about">Tentang</a></li>
                 <li><a href="#education">Pendidikan</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#organization">Organisasi</a></li>
                 <li><a href="#projects">Portofolio</a></li>
             </ul>
             <p>&copy; 2026 Iqra Fauzan Akbar. All Rights Reserved.</p>
